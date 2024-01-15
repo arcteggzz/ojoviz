@@ -1,0 +1,15 @@
+@use "../../assets/styles/" as *;
+
+.VideoWithLoader {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background: $backgroundColor;
+
+  .placeHolder {
+    width: 20vw;
+    height: auto;
+  }
+}

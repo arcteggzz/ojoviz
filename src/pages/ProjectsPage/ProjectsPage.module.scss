@@ -1,0 +1,22 @@
+@use "../../assets/styles/" as *;
+
+.ProjectsPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  .sectionTest {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+  img {
+    width: 384px;
+    height: auto;
+  }
+}

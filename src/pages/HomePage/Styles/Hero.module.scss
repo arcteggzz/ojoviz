@@ -1,0 +1,21 @@
+@use "../../../assets/styles/" as *;
+
+.Hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  // padding: 40vh 20vw;
+  row-gap: pixRem(12);
+  height: 100vh;
+  border: 1px solid grey;
+
+  @include md() {
+    padding: 0 pixRem(72);
+  }
+  @include sm() {
+    row-gap: pixRem(12);
+    height: 100vh;
+  }
+}

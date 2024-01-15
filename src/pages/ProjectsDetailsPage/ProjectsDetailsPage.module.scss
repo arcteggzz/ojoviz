@@ -1,0 +1,61 @@
+@use "../../assets/styles/" as *;
+
+.ProjectsDetailsPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: $backgroundColor;
+
+  .close_btn_container {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+
+    @include sm() {
+      height: 10vh;
+      padding: 0 8px;
+    }
+
+    .close_btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+
+      .close_icon {
+        width: 14px;
+        height: auto;
+      }
+    }
+  }
+
+  .middle_screen {
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+    @include sm() {
+      height: 90vh;
+      padding: 0 8px;
+    }
+
+    .previous_btn,
+    .next_btn {
+      background: $backgroundColor;
+      border: none;
+      cursor: pointer;
+    }
+
+    .image_container {
+      max-width: 1080px;
+    }
+  }
+}

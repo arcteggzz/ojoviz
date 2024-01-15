@@ -1,0 +1,35 @@
+@use "../../../assets/styles/" as *;
+
+.ProjectsControls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 96px 120px;
+
+  @include md() {
+    padding: 0 pixRem(72);
+  }
+  @include sm() {
+    row-gap: pixRem(12);
+    height: 100vh;
+  }
+
+  .project_title {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.07px;
+  }
+
+  .dropdown_container {
+    width: 160px;
+
+    @include sm() {
+      width: 100%;
+    }
+  }
+}

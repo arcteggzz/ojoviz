@@ -1,0 +1,60 @@
+@use "../../../assets/styles/" as *;
+
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+  @include md() {
+  }
+  @include sm() {
+  }
+
+  .about_us_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 120px;
+    width: 100%;
+
+    @include sm() {
+      padding: 96px 20px 72px 20px;
+    }
+
+    .top_item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .head_text {
+        color: #fff;
+        text-align: center;
+        font-family: Inter;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px; /* 142.857% */
+
+        @include sm() {
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
+
+      .body_text {
+        color: #fff;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22.86px; /* 142.875% */
+
+        @include sm() {
+          font-size: 9px;
+          line-height: 13x;
+        }
+      }
+    }
+  }
+}

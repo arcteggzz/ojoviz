@@ -13,7 +13,7 @@
   }
   @include sm() {
     row-gap: pixRem(12);
-    height: 100vh;
+    padding: 72px 20px 24px 20px;
   }
 
   .contact_us_text {
@@ -24,6 +24,10 @@
     font-weight: 600;
     line-height: 24px; /* 160% */
     margin-bottom: 4px;
+
+    @include sm() {
+      margin-bottom: 1px;
+    }
   }
 
   .build_text {
@@ -35,6 +39,13 @@
     line-height: 60px; /* 125% */
     letter-spacing: -0.96px;
     margin-bottom: 6px;
+    text-align: center;
+
+    @include sm() {
+      font-size: 32px;
+      line-height: 44px;
+      width: 80vw;
+    }
   }
 
   .deliver_text {
@@ -45,6 +56,11 @@
     font-weight: 400;
     line-height: 30px; /* 150% */
     margin-bottom: 80px;
+
+    @include sm() {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
   }
 
   .send_btn {
@@ -61,6 +77,11 @@
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     cursor: pointer;
     transition: all ease-in 0.25s;
+
+    @include sm() {
+      padding: 10px 20px;
+      width: 100%;
+    }
   }
 
   .send_btn:hover {

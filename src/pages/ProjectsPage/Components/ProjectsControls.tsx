@@ -14,8 +14,6 @@ const ProjectsControls = () => {
 
   return (
     <section className={styles.ProjectsControls}>
-      <p className={styles.project_title}>300 Projects</p>
-
       <div className={styles.dropdown_container}>
         <Dropdown
           defaultSelection={dropDownChoice}

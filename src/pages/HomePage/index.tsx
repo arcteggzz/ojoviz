@@ -1,10 +1,10 @@
 import styles from "./HomePage.module.scss";
 import { AnimatedFadeInPage, PublicPageLayout } from "../../utils";
 import { useState, useEffect } from "react";
-import { SplashScreen, Hero, ContactUs } from "./Components";
+import { SplashScreen, Hero, ContactUs, AboutUs } from "./Components";
 
 const HomePage = () => {
-  const [spalsh, setSplash] = useState(true);
+  const [spalsh, setSplash] = useState(false);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -23,6 +23,7 @@ const HomePage = () => {
         <PublicPageLayout>
           <main className={styles.HomePage}>
             <Hero />
+            <AboutUs />
             <ContactUs />
           </main>
         </PublicPageLayout>

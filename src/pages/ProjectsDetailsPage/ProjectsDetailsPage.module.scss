@@ -9,6 +9,10 @@
   align-items: center;
   background: $backgroundColor;
 
+  @include sm() {
+    height: 100dvh;
+  }
+
   .close_btn_container {
     width: 100%;
     height: 6vh;
@@ -18,8 +22,8 @@
     padding: 0 20px;
 
     @include sm() {
-      height: 10vh;
-      padding: 0 8px;
+      height: 6dvh;
+      padding: 0 12px;
     }
 
     .close_btn {
@@ -30,20 +34,24 @@
       .close_icon {
         width: 14px;
         height: auto;
+
+        @include sm() {
+          width: 12px;
+        }
       }
     }
   }
 
   .middle_screen {
     width: 100%;
-    height: 94vh;
+    height: 84vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
 
     @include sm() {
-      height: 90vh;
+      height: 84dvh;
       padding: 0 8px;
     }
 
@@ -56,6 +64,48 @@
 
     .image_container {
       max-width: 1080px;
+    }
+  }
+
+  .project_details {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include sm() {
+      height: 10dvh;
+      row-gap: 6px;
+    }
+
+    .project_name {
+      color: #e7e7e7;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+
+      @include sm() {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+    .project_client {
+      color: #e7e7e7;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+
+      @include sm() {
+        font-size: 12px;
+        line-height: 16px;
+      }
     }
   }
 }

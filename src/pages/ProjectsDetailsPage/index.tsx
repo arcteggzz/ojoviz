@@ -72,6 +72,11 @@ const ProjectsDetailsPage = () => {
             <Icons height="24" width="24" id="next_icon" />
           </button>
         </div>
+
+        <div className={styles.project_details}>
+          <h4 className={styles.project_name}>{currentProject?.name}</h4>
+          <p className={styles.project_client}>{currentProject?.client}</p>
+        </div>
       </main>
     </AnimatedFadeInPage>
   );

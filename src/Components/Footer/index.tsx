@@ -81,7 +81,7 @@ const Footer = () => {
                   <img
                     src={item.image}
                     alt={item.alt}
-                    className={styles.socials_icon}
+                    className={styles.external_socials_icon}
                   />
 
                   <p className={styles.external_link_text}>{item.text}</p>

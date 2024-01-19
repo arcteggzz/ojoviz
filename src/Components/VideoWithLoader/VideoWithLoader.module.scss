@@ -7,9 +7,29 @@
   align-items: center;
   justify-content: center;
   background: $backgroundColor;
+  position: relative;
 
   .placeHolder {
-    width: 20vw;
+    // width: 50vw;
     height: auto;
+
+    @include sm() {
+      width: 80vw;
+    }
+  }
+
+  .play_icon_container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: none;
+    display: flex;
+    justify-content: center;
+
+    .play_icon {
+      width: 40px;
+      height: auto;
+      background: none;
+    }
   }
 }

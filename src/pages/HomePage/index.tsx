@@ -1,7 +1,14 @@
 import styles from "./HomePage.module.scss";
 import { AnimatedFadeInPage, PublicPageLayout } from "../../utils";
 import { useState, useEffect, useRef } from "react";
-import { SplashScreen, Hero, ContactUs, AboutUs } from "./Components";
+import {
+  SplashScreen,
+  Hero,
+  ContactUs,
+  AboutUs,
+  Testimonials,
+  SelectedProjects,
+} from "./Components";
 import { useLocation } from "react-router-dom";
 import useApp from "../../hooks/useApp";
 
@@ -16,7 +23,7 @@ const HomePage = () => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setSplash(false);
-    }, 3000);
+    }, 1000);
 
     return () => clearTimeout(timeoutId);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -71,6 +78,8 @@ const HomePage = () => {
             <div id="aboutUs" ref={aboutUsSectionRef}>
               <AboutUs />
             </div>
+            <SelectedProjects />
+            <Testimonials />
             <div id="contactUs" ref={contactUsSectionRef}>
               <ContactUs />
             </div>

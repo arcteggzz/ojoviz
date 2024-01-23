@@ -2,16 +2,19 @@ export { default as PublicPageLayout } from "./PublicPageLayout";
 export { default as AnimatedFadeInPage } from "./AnimatedFadeInPage";
 export { default as routePaths } from "./routePaths";
 export { projectsList } from "./projectsList";
-import website_logo from "../assets/images/website_logo.png";
-import contact_logo from "../assets/images/contact_logo.png";
+// import website_logo from "../assets/images/website_logo.png";
+// import contact_logo from "../assets/images/contact_logo.png";
 // import facebook_logo from "../assets/images/facebook_logo.png";
 import instagram_logo from "../assets/images/instagram_logo.png";
 import linkedin_logo from "../assets/images/linkedin_logo.png";
-import mail_logo from "../assets/images/mail_logo.png";
+// import mail_logo from "../assets/images/mail_logo.png";
 import twitter_logo from "../assets/images/twitter_logo.png";
+import { projectsList } from ".";
+import { singleProjectType } from "../types/singleProjectType";
 
 export const emailAddress = "jordanomoleye@gmail.com";
 export const phoneNumber = "+2348178296321";
+export const footerPhoneNUmbers = ["+234-81-7829-6321", "+1-905-932-6321"];
 
 export const sendEmail = () => {
   const mailtoLink = "mailto:" + emailAddress;
@@ -63,27 +66,6 @@ export const socialLinks1 = [
   },
 ];
 
-export const socialLinks2 = [
-  {
-    image: website_logo,
-    alt: "Website Icon",
-    externalLink: "https://x.com/jordan_rvt?s=11",
-    text: "Jordan.rvt",
-  },
-  {
-    image: contact_logo,
-    alt: "Contact Icon",
-    externalLink: "tel" + phoneNumber,
-    text: "+2348178296321",
-  },
-  {
-    image: mail_logo,
-    alt: "Mail Icon",
-    externalLink: "mailto:" + emailAddress,
-    text: "Jordan_leye@outlook.com",
-  },
-];
-
 export const testimonials = [
   {
     backgroundColor: "#19A3A3",
@@ -122,3 +104,20 @@ export const testimonials = [
       "The timely delivery, the attention to the requirements. Top professionals all round. I really enjoyed their service and will definitely recommend.",
   },
 ];
+
+export const generateSelectedProjects = () => {
+  const selectedProjectsList: singleProjectType[] = [];
+
+  while (selectedProjectsList.length < 6) {
+    const randomId = Math.floor(
+      Math.random() * (projectsList.length - 1 + 1) + 1
+    );
+    const project = projectsList.find((item) => item.id === `${randomId}`);
+
+    if (!selectedProjectsList.includes(project as singleProjectType)) {
+      selectedProjectsList.push(project as singleProjectType);
+    }
+  }
+
+  return selectedProjectsList;
+};

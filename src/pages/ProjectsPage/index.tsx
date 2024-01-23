@@ -1,15 +1,22 @@
 import styles from "./ProjectsPage.module.scss";
 import { AnimatedFadeInPage, PublicPageLayout } from "../../utils";
-import { ProjectsHeader, ProjectsControls } from "./Components";
+import {
+  ProjectsHeader,
+  ProjectsControls,
+  ProjectsListDisplay,
+} from "./Components";
 
 const ProjectsPage = () => {
   return (
     <AnimatedFadeInPage>
       <PublicPageLayout>
-        <main className={styles.ProjectsPage}>
-          <ProjectsHeader />
-          <ProjectsControls />
-        </main>
+        <>
+          <div className={styles.ProjectsPage}>
+            <ProjectsHeader />
+            <ProjectsControls />
+            <ProjectsListDisplay />
+          </div>
+        </>
       </PublicPageLayout>
     </AnimatedFadeInPage>
   );

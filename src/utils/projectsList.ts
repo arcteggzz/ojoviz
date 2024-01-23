@@ -71,15 +71,15 @@ export const projectsList: singleProjectType[] = [
 
   {
     id: "6",
-    name: "Project FR",
+    name: "Project Telos",
     client: "Private Client",
     category: "animation",
     type: "video",
     videoUrl: {
       placeholder:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705987322/Ojoviz%20Assets/project_telos_h9hwl4.png",
       mainUrl:
-        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705182882/Ojoviz%20Assets/Fr_qntgox.mp4",
+        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705987331/Ojoviz%20Assets/Telos_2_2_edqnvp.mp4",
     },
   },
 
@@ -442,12 +442,12 @@ export const projectsList: singleProjectType[] = [
     name: "FR",
     client: "Private Client",
     category: "interior",
-    type: "image",
-    imageUrl: {
-      small:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
-      large:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178516/Ojoviz%20Assets/KGA_8_1_3_a4kaku.png",
+    type: "video",
+    videoUrl: {
+      placeholder:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705986931/Ojoviz%20Assets/FR_nn2fcy.png",
+      mainUrl:
+        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705986987/Ojoviz%20Assets/Fr_2_w5ymas.mp4",
     },
   },
 
@@ -630,6 +630,20 @@ export const projectsList: singleProjectType[] = [
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705181667/Ojoviz%20Assets/RDSD_002_1_yjy3dw.png",
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705181675/Ojoviz%20Assets/RDSD_002_1_1_nkxehf.png",
+    },
+  },
+
+  {
+    id: "46",
+    name: "Project FR",
+    client: "Private Client",
+    category: "animation",
+    type: "video",
+    videoUrl: {
+      placeholder:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
+      mainUrl:
+        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705182882/Ojoviz%20Assets/Fr_qntgox.mp4",
     },
   },
 ];

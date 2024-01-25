@@ -61,6 +61,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.single_social_link}
+                    key={item.externalLink}
                   >
                     <img
                       src={item.image}

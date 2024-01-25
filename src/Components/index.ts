@@ -4,3 +4,4 @@ export { default as Dropdown } from "./Dropdown";
 export { default as Icons } from "./Icons";
 export { default as ImageWithLoader } from "./ImageWithLoader";
 export { default as VideoWithLoader } from "./VideoWithLoader";
+export { default as SingleProjectDisplay } from "./SingleProjectDisplay";

@@ -2,7 +2,7 @@ export type singleProjectType = {
   id: string;
   name: string;
   client: string;
-  category: "interior" | "exterior" | "animation";
+  category: "interiors" | "exteriors" | "animations";
   type: "image" | "video";
   imageUrl?: {
     small: string;
@@ -13,3 +13,9 @@ export type singleProjectType = {
     mainUrl: string;
   };
 };
+
+export type dropDownCategory =
+  | "All Projects"
+  | "Interiors"
+  | "Exteriors"
+  | "Animations";

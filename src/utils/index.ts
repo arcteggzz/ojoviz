@@ -10,7 +10,7 @@ import linkedin_logo from "../assets/images/linkedin_logo.png";
 // import mail_logo from "../assets/images/mail_logo.png";
 import twitter_logo from "../assets/images/twitter_logo.png";
 import { projectsList } from ".";
-import { singleProjectType } from "../types/singleProjectType";
+import { singleProjectType } from "../types";
 
 export const emailAddress = "jordanomoleye@gmail.com";
 export const phoneNumber = "+2348178296321";
@@ -120,4 +120,18 @@ export const generateSelectedProjects = () => {
   }
 
   return selectedProjectsList;
+};
+
+export const splitNumber = (input: number) => {
+  if (input <= 0) {
+    return [0, 0, 0];
+  }
+
+  const part = Math.floor(input / 3);
+
+  if (input % 3 === 0) return [part, part, input / 3];
+
+  if (input % 3 === 1) return [part + 1, part, part];
+  if (input % 3 === 2) return [part + 1, part + 1, part];
+  else return [0, 0, 0];
 };

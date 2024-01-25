@@ -22,7 +22,7 @@ const Navbar = () => {
             {/* desktop navlinks  */}
             <div className={styles.navLinks_Desktop}>
               <NavLink
-                to={`${routePaths.HOME}#aboutUs`}
+                to={`${routePaths.HOME}${routePaths.HASH_ID.about_us}`}
                 className={styles.inactive_NavLink}
               >
                 About Us
@@ -38,7 +38,7 @@ const Navbar = () => {
             </div>
 
             <Link
-              to={`${routePaths.HOME}#contactUs`}
+              to={`${routePaths.HOME}${routePaths.HASH_ID.contact_us}`}
               className={styles.contact_us_btn}
             >
               Contact Us
@@ -71,7 +71,7 @@ const Navbar = () => {
         >
           <section className={styles.Navlinks_Mobile}>
             <NavLink
-              to={`${routePaths.HOME}#aboutUs`}
+              to={`${routePaths.HOME}${routePaths.HASH_ID.about_us}`}
               className={styles.mobile_single_NavLink}
             >
               About Us
@@ -86,7 +86,7 @@ const Navbar = () => {
 
           <div className={styles.contact_us_container}>
             <Link
-              to={`${routePaths.HOME}#contactUs`}
+              to={`${routePaths.HOME}${routePaths.HASH_ID.contact_us}`}
               className={styles.contact_us_btn_mobile}
             >
               Contact Us

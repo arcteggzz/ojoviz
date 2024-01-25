@@ -1,11 +1,11 @@
-import { singleProjectType } from "../types/singleProjectType";
+import { singleProjectType } from "../types";
 
 export const projectsList: singleProjectType[] = [
   {
     id: "1",
     name: "The Pearl",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -18,7 +18,7 @@ export const projectsList: singleProjectType[] = [
     id: "2",
     name: "Space Video",
     client: "Private Client",
-    category: "animation",
+    category: "animations",
     type: "video",
     videoUrl: {
       placeholder:
@@ -31,7 +31,7 @@ export const projectsList: singleProjectType[] = [
     id: "3",
     name: "Balconies",
     client: "Private Client",
-    category: "animation",
+    category: "animations",
     type: "video",
     videoUrl: {
       placeholder:
@@ -45,7 +45,7 @@ export const projectsList: singleProjectType[] = [
     id: "4",
     name: "Apartment Block",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -59,7 +59,7 @@ export const projectsList: singleProjectType[] = [
     id: "5",
     name: "Residential Estate",
     client: "Niffy Design Studio",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -71,15 +71,15 @@ export const projectsList: singleProjectType[] = [
 
   {
     id: "6",
-    name: "Project FR",
+    name: "Project Telos",
     client: "Private Client",
-    category: "animation",
+    category: "animations",
     type: "video",
     videoUrl: {
       placeholder:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705987322/Ojoviz%20Assets/project_telos_h9hwl4.png",
       mainUrl:
-        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705182882/Ojoviz%20Assets/Fr_qntgox.mp4",
+        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705987331/Ojoviz%20Assets/Telos_2_2_edqnvp.mp4",
     },
   },
 
@@ -87,7 +87,7 @@ export const projectsList: singleProjectType[] = [
     id: "7",
     name: "Custom Residence",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -101,7 +101,7 @@ export const projectsList: singleProjectType[] = [
     id: "8",
     name: "Walai Ethopian Cuisine",
     client: "RC Atelier",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -115,7 +115,7 @@ export const projectsList: singleProjectType[] = [
     id: "9",
     name: "Live Recording Studio",
     client: "Private Client",
-    category: "animation",
+    category: "animations",
     type: "video",
     videoUrl: {
       placeholder:
@@ -129,7 +129,7 @@ export const projectsList: singleProjectType[] = [
     id: "10",
     name: "Project MIR",
     client: "White Global",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -143,7 +143,7 @@ export const projectsList: singleProjectType[] = [
     id: "11",
     name: "Apartment Block",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -157,7 +157,7 @@ export const projectsList: singleProjectType[] = [
     id: "12",
     name: "Orange Island",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -171,7 +171,7 @@ export const projectsList: singleProjectType[] = [
     id: "13",
     name: "Custom Residence",
     client: "Abdur-rahman Harunah",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -185,7 +185,7 @@ export const projectsList: singleProjectType[] = [
     id: "14",
     name: "KD Apartment",
     client: "RC Atelier",
-    category: "exterior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -199,7 +199,7 @@ export const projectsList: singleProjectType[] = [
     id: "15",
     name: "Project FR",
     client: "Private Client",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -217,7 +217,7 @@ export const projectsList: singleProjectType[] = [
     id: "16",
     name: "Live Recording Studio",
     client: "Waver",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -231,7 +231,7 @@ export const projectsList: singleProjectType[] = [
     id: "17",
     name: "Custom Residence",
     client: "Private Client",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -245,8 +245,8 @@ export const projectsList: singleProjectType[] = [
     id: "18",
     name: "KD Apartment",
     client: "Private Client",
-    category: "interior",
-    type: "image",
+    category: "animations",
+    type: "video",
     videoUrl: {
       placeholder:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705172959/Ojoviz%20Assets/22_1_pbv9gh.png",
@@ -259,7 +259,7 @@ export const projectsList: singleProjectType[] = [
     id: "19",
     name: "Custom Residence",
     client: "Private Client",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -273,7 +273,7 @@ export const projectsList: singleProjectType[] = [
     id: "20",
     name: "Thirsty HQ",
     client: "Abdur-rahman Harunah",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -287,7 +287,7 @@ export const projectsList: singleProjectType[] = [
     id: "21",
     name: "Custom Residence",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -301,7 +301,7 @@ export const projectsList: singleProjectType[] = [
     id: "22",
     name: "Project KN",
     client: "Novero",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -315,7 +315,7 @@ export const projectsList: singleProjectType[] = [
     id: "23",
     name: "P Villa",
     client: "Private Client",
-    category: "animation",
+    category: "animations",
     type: "video",
     videoUrl: {
       placeholder:
@@ -329,7 +329,7 @@ export const projectsList: singleProjectType[] = [
     id: "24",
     name: "Apartment Block",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -343,7 +343,7 @@ export const projectsList: singleProjectType[] = [
     id: "25",
     name: "Custom Residence",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -357,7 +357,7 @@ export const projectsList: singleProjectType[] = [
     id: "26",
     name: "Project KN",
     client: "Novero",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -371,7 +371,7 @@ export const projectsList: singleProjectType[] = [
     id: "27",
     name: "Red Bricks",
     client: "Niffy Design Studio",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -385,7 +385,7 @@ export const projectsList: singleProjectType[] = [
     id: "28",
     name: "Custom Residence",
     client: "Private Client",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -399,7 +399,7 @@ export const projectsList: singleProjectType[] = [
     id: "29",
     name: "Estate E",
     client: "Abdur-rahman Harunah",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -413,7 +413,7 @@ export const projectsList: singleProjectType[] = [
     id: "30",
     name: "Project LD",
     client: "RC Atelier",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -427,7 +427,7 @@ export const projectsList: singleProjectType[] = [
     id: "31",
     name: "Katampe Terrace",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -441,13 +441,13 @@ export const projectsList: singleProjectType[] = [
     id: "32",
     name: "FR",
     client: "Private Client",
-    category: "interior",
-    type: "image",
-    imageUrl: {
-      small:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
-      large:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178516/Ojoviz%20Assets/KGA_8_1_3_a4kaku.png",
+    category: "animations",
+    type: "video",
+    videoUrl: {
+      placeholder:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705986931/Ojoviz%20Assets/FR_nn2fcy.png",
+      mainUrl:
+        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705986987/Ojoviz%20Assets/Fr_2_w5ymas.mp4",
     },
   },
 
@@ -455,7 +455,7 @@ export const projectsList: singleProjectType[] = [
     id: "33",
     name: "Twin Waters",
     client: "Private Client",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -469,7 +469,7 @@ export const projectsList: singleProjectType[] = [
     id: "34",
     name: "Taj",
     client: "Private Client",
-    category: "animation",
+    category: "animations",
     type: "video",
     videoUrl: {
       placeholder:
@@ -483,7 +483,7 @@ export const projectsList: singleProjectType[] = [
     id: "35",
     name: "Project KN",
     client: "Novero",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -497,7 +497,7 @@ export const projectsList: singleProjectType[] = [
     id: "36",
     name: "Artist Home",
     client: "Abdur-rahman Harunah",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -511,7 +511,7 @@ export const projectsList: singleProjectType[] = [
     id: "37",
     name: "Accent Chair",
     client: "Private Client",
-    category: "animation",
+    category: "animations",
     type: "video",
     videoUrl: {
       placeholder:
@@ -521,25 +521,25 @@ export const projectsList: singleProjectType[] = [
     },
   },
 
-  {
-    id: "38",
-    name: "Project KN",
-    client: "Novero",
-    category: "interior",
-    type: "image",
-    imageUrl: {
-      small:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179895/Ojoviz%20Assets/PKN_10_1_2_sepw9e.png",
-      large:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179900/Ojoviz%20Assets/PKN_10_1_3_tsrrht.png",
-    },
-  },
+  // {
+  //   id: "38",
+  //   name: "Project KN",
+  //   client: "Novero",
+  //   category: "interiors",
+  //   type: "image",
+  //   imageUrl: {
+  //     small:
+  //       "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179895/Ojoviz%20Assets/PKN_10_1_2_sepw9e.png",
+  //     large:
+  //       "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179900/Ojoviz%20Assets/PKN_10_1_3_tsrrht.png",
+  //   },
+  // },
 
   {
     id: "39",
     name: "Custom Residence",
     client: "Partum Locus",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -553,7 +553,7 @@ export const projectsList: singleProjectType[] = [
     id: "40",
     name: "Custom Residence",
     client: "Private Client",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -567,7 +567,7 @@ export const projectsList: singleProjectType[] = [
     id: "41",
     name: "Project MIR",
     client: "Whyte Global",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -581,7 +581,7 @@ export const projectsList: singleProjectType[] = [
     id: "42",
     name: "NB Office Renovation",
     client: "The Finish",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -595,7 +595,7 @@ export const projectsList: singleProjectType[] = [
     id: "43",
     name: "Project LD",
     client: "RC Atelier",
-    category: "interior",
+    category: "interiors",
     type: "image",
     imageUrl: {
       small:
@@ -609,7 +609,7 @@ export const projectsList: singleProjectType[] = [
     id: "44",
     name: "Custom Residence",
     client: "Private Client",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
@@ -623,13 +623,27 @@ export const projectsList: singleProjectType[] = [
     id: "45",
     name: "Custom Residence",
     client: "Private Client",
-    category: "exterior",
+    category: "exteriors",
     type: "image",
     imageUrl: {
       small:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705181667/Ojoviz%20Assets/RDSD_002_1_yjy3dw.png",
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705181675/Ojoviz%20Assets/RDSD_002_1_1_nkxehf.png",
+    },
+  },
+
+  {
+    id: "46",
+    name: "Project FR",
+    client: "Private Client",
+    category: "animations",
+    type: "video",
+    videoUrl: {
+      placeholder:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
+      mainUrl:
+        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705182882/Ojoviz%20Assets/Fr_qntgox.mp4",
     },
   },
 ];

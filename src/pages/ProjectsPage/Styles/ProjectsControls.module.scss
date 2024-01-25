@@ -2,10 +2,10 @@
 
 .ProjectsControls {
   width: 100%;
-  padding: 96px 120px;
+  padding: 82px 120px;
 
   @include md() {
-    padding: 0 pixRem(72);
+    padding: 74px pixRem(72);
   }
   @include sm() {
     padding: 40px 24px 28px 24px;

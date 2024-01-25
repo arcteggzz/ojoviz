@@ -94,7 +94,9 @@ const CustomDropdown = ({
                   key={possibleOption}
                   ref={optionRef}
                 >
-                  <p key={possibleOption}>{possibleOption}</p>
+                  <p key={possibleOption} className={styles.option_text}>
+                    {possibleOption}
+                  </p>
 
                   {selectedChoice === possibleOption ? (
                     <Icons width="20" height="20" id="check_mark" />

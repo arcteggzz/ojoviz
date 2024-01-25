@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
+import { dropDownCategory } from "../types";
 
 type AppContextProviderProps = {
   children: React.ReactNode;
@@ -8,12 +9,16 @@ type AppContextType = {
   mobileNavbarOpen: boolean;
   setMobileNavbarOpen: React.Dispatch<React.SetStateAction<boolean>>;
   toggleMobileNavbar: () => void;
+  setDropDownChoice: React.Dispatch<React.SetStateAction<dropDownCategory>>;
+  dropDownChoice: dropDownCategory;
 };
 
 export const AppContext = createContext({} as AppContextType);
 
 export const AppContextProvider = ({ children }: AppContextProviderProps) => {
   const [mobileNavbarOpen, setMobileNavbarOpen] = useState(false);
+  const [dropDownChoice, setDropDownChoice] =
+    useState<dropDownCategory>("All Projects");
 
   const toggleMobileNavbar = () => {
     setMobileNavbarOpen((mobileNavbarOpen) => !mobileNavbarOpen);
@@ -33,6 +38,8 @@ export const AppContextProvider = ({ children }: AppContextProviderProps) => {
         mobileNavbarOpen,
         setMobileNavbarOpen,
         toggleMobileNavbar,
+        dropDownChoice,
+        setDropDownChoice,
       }}
     >
       {children}

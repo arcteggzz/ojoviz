@@ -11,6 +11,7 @@ import {
 } from "./Components";
 import { useLocation } from "react-router-dom";
 import useApp from "../../hooks/useApp";
+import { routePaths } from "../../utils";
 
 const HomePage = () => {
   const contactUsSectionRef = useRef<HTMLDivElement>(null);
@@ -30,19 +31,28 @@ const HomePage = () => {
   }, []);
 
   useEffect(() => {
-    if (window.location.hash === "#contactUs" && contactUsSectionRef.current) {
+    if (
+      window.location.hash === routePaths.HASH_ID.contact_us &&
+      contactUsSectionRef.current
+    ) {
       contactUsSectionRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
 
   useEffect(() => {
-    if (window.location.hash === "#aboutUs" && aboutUsSectionRef.current) {
+    if (
+      window.location.hash === routePaths.HASH_ID.about_us &&
+      aboutUsSectionRef.current
+    ) {
       aboutUsSectionRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
 
   useEffect(() => {
-    if (window.location.hash === "#contactUs" && contactUsSectionRef.current) {
+    if (
+      window.location.hash === routePaths.HASH_ID.contact_us &&
+      contactUsSectionRef.current
+    ) {
       contactUsSectionRef.current.scrollIntoView({ behavior: "smooth" });
       setMobileNavbarOpen(false);
     }
@@ -50,7 +60,10 @@ const HomePage = () => {
   }, [location, spalsh]);
 
   useEffect(() => {
-    if (window.location.hash === "#aboutUs" && aboutUsSectionRef.current) {
+    if (
+      window.location.hash === routePaths.HASH_ID.about_us &&
+      aboutUsSectionRef.current
+    ) {
       aboutUsSectionRef.current.scrollIntoView({ behavior: "smooth" });
       setMobileNavbarOpen(false);
     }
@@ -59,8 +72,8 @@ const HomePage = () => {
 
   useEffect(() => {
     if (
-      window.location.hash === "#aboutUs" ||
-      window.location.hash === "#contactUs"
+      window.location.hash === routePaths.HASH_ID.about_us ||
+      window.location.hash === routePaths.HASH_ID.contact_us
     ) {
       setSplash(false);
     }

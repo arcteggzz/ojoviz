@@ -1,9 +1,9 @@
 import styles from "../Styles/ProjectsControls.module.scss";
 import { Dropdown } from "../../../Components";
-import { useState } from "react";
+import useApp from "../../../hooks/useApp";
 
 const ProjectsControls = () => {
-  const [dropDownChoice, setDropdownChoice] = useState("All Projects");
+  const { dropDownChoice, setDropDownChoice } = useApp();
 
   const dropDownOptions = [
     "All Projects",
@@ -18,7 +18,7 @@ const ProjectsControls = () => {
         <Dropdown
           defaultSelection={dropDownChoice}
           possibleOptions={dropDownOptions}
-          customOnChange={setDropdownChoice}
+          customOnChange={setDropDownChoice}
         />
       </div>
     </section>

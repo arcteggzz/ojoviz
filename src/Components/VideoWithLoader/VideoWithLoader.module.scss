@@ -10,7 +10,7 @@
   position: relative;
 
   .placeHolder {
-    // width: 50vw;
+    max-width: 60vw;
     height: auto;
 
     @include sm() {

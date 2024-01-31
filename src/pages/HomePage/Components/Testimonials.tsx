@@ -34,11 +34,11 @@ const Testimonials = () => {
 
       <div className={styles.carousel_slider_container}>
         <div className={styles.top_carousel}>
-          {testimonials?.map((review) => {
+          {testimonials?.map((review, index) => {
             return (
               <>
                 <SingleTestimonial
-                  key={`${review.name}`}
+                  key={`${review.name}${index}`}
                   comment={review.comment}
                   name={review.name}
                   backgroundColor={review.backgroundColor}
@@ -46,11 +46,11 @@ const Testimonials = () => {
               </>
             );
           })}
-          {testimonials?.map((review) => {
+          {testimonials?.map((review, index) => {
             return (
               <>
                 <SingleTestimonial
-                  key={`${review.name}`}
+                  key={`${review.name}${review.comment}${index}`}
                   comment={review.comment}
                   name={review.name}
                   backgroundColor={review.backgroundColor}

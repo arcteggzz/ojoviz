@@ -9,7 +9,7 @@ const ProjectsControls = () => {
     "All Projects",
     "Interiors",
     "Exteriors",
-    "Animations",
+    "Motion Images",
   ];
 
   return (

@@ -15,6 +15,8 @@ import { singleProjectType } from "../types";
 export const emailAddress = "jordanomoleye@gmail.com";
 export const phoneNumber = "+2348178296321";
 export const footerPhoneNUmbers = ["+234-81-7829-6321", "+1-905-932-6321"];
+export const heroVideoUrl = `https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705987331/Ojoviz%20Assets/Telos_2_2_edqnvp.mp4`;
+const slectedProjectsIds = [15, 56, 57, 36, 47, 50, 49, 20, 58];
 
 export const sendEmail = () => {
   const mailtoLink = "mailto:" + emailAddress;
@@ -108,16 +110,10 @@ export const testimonials = [
 export const generateSelectedProjects = () => {
   const selectedProjectsList: singleProjectType[] = [];
 
-  while (selectedProjectsList.length < 6) {
-    const randomId = Math.floor(
-      Math.random() * (projectsList.length - 1 + 1) + 1
-    );
-    const project = projectsList.find((item) => item.id === `${randomId}`);
-
-    if (!selectedProjectsList.includes(project as singleProjectType)) {
-      selectedProjectsList.push(project as singleProjectType);
-    }
-  }
+  slectedProjectsIds.map((id) => {
+    const project = projectsList.find((item) => item.id === `${id}`);
+    selectedProjectsList.push(project as singleProjectType);
+  });
 
   return selectedProjectsList;
 };

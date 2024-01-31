@@ -56,6 +56,7 @@ const SelectedProjects = () => {
               <Link
                 to={`/projects/${project.id}`}
                 className={styles.project_link_item}
+                key={project.id}
               >
                 <img
                   src={

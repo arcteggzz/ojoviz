@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className={styles.statistics_container}>
         {aboutUsItems.map((item) => {
           return (
-            <div className={styles.single_item}>
+            <div className={styles.single_item} key={item.body}>
               <h4 className={styles.head_text}>{item.head}</h4>
               <p className={styles.body_text}>{item.body}</p>
             </div>

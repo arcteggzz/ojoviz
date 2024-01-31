@@ -18,7 +18,7 @@ export const projectsList: singleProjectType[] = [
     id: "2",
     name: "Space Video",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
@@ -31,7 +31,7 @@ export const projectsList: singleProjectType[] = [
     id: "3",
     name: "Balconies",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
@@ -73,7 +73,7 @@ export const projectsList: singleProjectType[] = [
     id: "6",
     name: "Project Telos",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
@@ -115,7 +115,7 @@ export const projectsList: singleProjectType[] = [
     id: "9",
     name: "Live Recording Studio",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
@@ -245,7 +245,7 @@ export const projectsList: singleProjectType[] = [
     id: "18",
     name: "KD Apartment",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
@@ -315,7 +315,7 @@ export const projectsList: singleProjectType[] = [
     id: "23",
     name: "P Villa",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
@@ -437,19 +437,19 @@ export const projectsList: singleProjectType[] = [
     },
   },
 
-  {
-    id: "32",
-    name: "FR",
-    client: "Private Client",
-    category: "animations",
-    type: "video",
-    videoUrl: {
-      placeholder:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705986931/Ojoviz%20Assets/FR_nn2fcy.png",
-      mainUrl:
-        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705986987/Ojoviz%20Assets/Fr_2_w5ymas.mp4",
-    },
-  },
+  // {
+  //   id: "32",
+  //   name: "FR",
+  //   client: "Private Client",
+  //   category: "motion images",
+  //   type: "video",
+  //   videoUrl: {
+  //     placeholder:
+  //       "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705986931/Ojoviz%20Assets/FR_nn2fcy.png",
+  //     mainUrl:
+  //       "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705986987/Ojoviz%20Assets/Fr_2_w5ymas.mp4",
+  //   },
+  // },
 
   {
     id: "33",
@@ -469,7 +469,7 @@ export const projectsList: singleProjectType[] = [
     id: "34",
     name: "Taj",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
@@ -511,7 +511,7 @@ export const projectsList: singleProjectType[] = [
     id: "37",
     name: "Accent Chair",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
@@ -521,19 +521,19 @@ export const projectsList: singleProjectType[] = [
     },
   },
 
-  // {
-  //   id: "38",
-  //   name: "Project KN",
-  //   client: "Novero",
-  //   category: "interiors",
-  //   type: "image",
-  //   imageUrl: {
-  //     small:
-  //       "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179895/Ojoviz%20Assets/PKN_10_1_2_sepw9e.png",
-  //     large:
-  //       "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179900/Ojoviz%20Assets/PKN_10_1_3_tsrrht.png",
-  //   },
-  // },
+  {
+    id: "38",
+    name: "Project KN",
+    client: "Novero",
+    category: "interiors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179895/Ojoviz%20Assets/PKN_10_1_2_sepw9e.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179900/Ojoviz%20Assets/PKN_10_1_3_tsrrht.png",
+    },
+  },
 
   {
     id: "39",
@@ -637,13 +637,169 @@ export const projectsList: singleProjectType[] = [
     id: "46",
     name: "Project FR",
     client: "Private Client",
-    category: "animations",
+    category: "motion images",
     type: "video",
     videoUrl: {
       placeholder:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705182882/Ojoviz%20Assets/Fr_qntgox.mp4",
+    },
+  },
+  {
+    id: "47",
+    name: "Project FR",
+    client: "Private Client",
+    category: "interiors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706441417/Ojoviz%20Assets/FR_3_vucf2c.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706441426/Ojoviz%20Assets/FR_3_1_y2478u.png",
+    },
+  },
+  {
+    id: "48",
+    name: "Project SF",
+    client: "RC Atelier",
+    category: "exteriors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706441741/Ojoviz%20Assets/SF_3_5_lcduve.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706441763/Ojoviz%20Assets/SF_3_5_1_fvrikx.png",
+    },
+  },
+  {
+    id: "49",
+    name: "Future Residence",
+    client: "Niffy Design Studio",
+    category: "interiors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442193/Ojoviz%20Assets/FR_5_3_axsnie.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442201/Ojoviz%20Assets/FR_5_3_1_l0idyx.png",
+    },
+  },
+  {
+    id: "50",
+    name: "Custom Residence",
+    client: "Partum Locus",
+    category: "exteriors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442502/Ojoviz%20Assets/edit_2_4_cepwfr.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442513/Ojoviz%20Assets/edit_2_4_1_ieusgm.png",
+    },
+  },
+  {
+    id: "51",
+    name: "KD Apartment",
+    client: "RC Atelier",
+    category: "interiors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442858/Ojoviz%20Assets/22_1_2_ekpfur.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442869/Ojoviz%20Assets/22_1_3_frv6ul.png",
+    },
+  },
+  {
+    id: "52",
+    name: "Custom Residence",
+    client: "Partum Locus",
+    category: "exteriors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443166/Ojoviz%20Assets/SD_1_1_cx5drv.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443183/Ojoviz%20Assets/SD_1_1_1_pjtp58.png",
+    },
+  },
+  {
+    id: "53",
+    name: "Project FR",
+    client: "Private Client",
+    category: "interiors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443601/Ojoviz%20Assets/FR_2_awb1yn.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443610/Ojoviz%20Assets/FR_2_1_ylwkfv.png",
+    },
+  },
+  {
+    id: "54",
+    name: "IG House",
+    client: "RC Atelier",
+    category: "exteriors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443832/Ojoviz%20Assets/IG_1_3_kitfab.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443843/Ojoviz%20Assets/IG_1_3_1_lnnjmq.png",
+    },
+  },
+  {
+    id: "55",
+    name: "Future Residence",
+    client: "Niffy Design Studio",
+    category: "interiors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706444071/Ojoviz%20Assets/FR_4_ph8ier.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706444102/Ojoviz%20Assets/FR_4_1_grxe1j.png",
+    },
+  },
+  {
+    id: "56",
+    name: "Red Bricks",
+    client: "Niffy Design Studio",
+    category: "exteriors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706450395/Ojoviz%20Assets/DT_4_3_pqdtmy.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706450423/Ojoviz%20Assets/DT_4_3_1_ztvz3x.png",
+    },
+  },
+  {
+    id: "57",
+    name: "The Pearl",
+    client: "Partum Locus",
+    category: "exteriors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706451018/Ojoviz%20Assets/Day_View_2_4_a2vpwb.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706451063/Ojoviz%20Assets/Day_View_2_4_1_thflxa.png",
+    },
+  },
+  {
+    id: "58",
+    name: "Student Affair Centre",
+    client: "Unilag",
+    category: "exteriors",
+    type: "image",
+    imageUrl: {
+      small:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706451260/Ojoviz%20Assets/SA_2_ceq255.png",
+      large:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706451305/Ojoviz%20Assets/SA_2_1_llpqnn.png",
     },
   },
 ];

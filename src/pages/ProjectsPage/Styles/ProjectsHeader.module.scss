@@ -20,13 +20,14 @@
   .project_header {
     color: #fff;
     text-align: center;
-    font-family: Inter;
-    font-size: 54px;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: 90px; /* 166.667% */
     letter-spacing: -1.08px;
     background: none;
+    text-transform: uppercase;
 
     @include sm() {
       font-size: 18px;

@@ -2,6 +2,8 @@ import styles from "./SingleProjectDisplay.module.scss";
 import { Link } from "react-router-dom";
 import { singleProjectType } from "../../types";
 import play_icon from "../../assets/images/play_icon_small.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const SingleProjectDisplay = ({ project }: { project: singleProjectType }) => {
   return (
@@ -9,7 +11,26 @@ const SingleProjectDisplay = ({ project }: { project: singleProjectType }) => {
       to={`/projects/${project.id}`}
       className={styles.SingleProjectDisplay}
     >
-      <img
+      <div className={styles.proj_image}>
+        <LazyLoadImage
+          alt={""}
+          height={"auto"}
+          width={"100%"}
+          src={
+            project.type === "image"
+              ? project.imageUrl?.small
+              : project.videoUrl?.placeholder
+          }
+          effect="blur"
+          placeholderSrc={
+            project.type === "image"
+              ? project.imageUrl?.thumbnailSrc
+              : project.videoUrl?.thumbnailSrc
+          }
+        />
+      </div>
+
+      {/* <img
         src={
           project.type === "image"
             ? project.imageUrl?.small
@@ -17,7 +38,8 @@ const SingleProjectDisplay = ({ project }: { project: singleProjectType }) => {
         }
         alt=""
         className={styles.proj_image}
-      />
+      /> */}
+
       <h5 className={styles.project_tag_header}>{project.name}</h5>
       <h6 className={styles.project_tag_body}>{project.client}</h6>
 

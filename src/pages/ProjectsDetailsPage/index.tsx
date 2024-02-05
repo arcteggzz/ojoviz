@@ -55,6 +55,7 @@ const ProjectsDetailsPage = () => {
               <ImageWithLoader
                 src={currentProject.imageUrl?.large as string}
                 alt="Project Image"
+                thumbnailSrc={currentProject.imageUrl?.thumbnailSrc as string}
               />
             </div>
           ) : (

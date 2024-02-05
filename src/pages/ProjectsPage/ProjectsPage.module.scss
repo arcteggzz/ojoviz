@@ -6,4 +6,52 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+
+  .to_top_btn {
+    position: fixed;
+    bottom: 4vh;
+    right: 120px;
+
+    width: 40px;
+    height: auto;
+
+    background: none;
+    background-color: none;
+    border: none;
+    z-index: 999;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: ease all 0.5s;
+
+    @include md() {
+      right: 72px;
+      bottom: 3.5vh;
+    }
+    @include sm() {
+      width: 60px;
+      height: 60px;
+      right: 20px;
+      bottom: 1vh;
+    }
+
+    .scroll_to_top_btn {
+      width: 100%;
+      height: auto;
+      background: none;
+      background-color: none;
+
+      @include md() {
+        width: 85%;
+      }
+      @include sm() {
+        width: 70%;
+      }
+    }
+  }
 }

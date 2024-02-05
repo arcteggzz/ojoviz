@@ -7,10 +7,12 @@ export type singleProjectType = {
   imageUrl?: {
     small: string;
     large: string;
+    thumbnailSrc: string;
   };
   videoUrl?: {
     placeholder: string;
     mainUrl: string;
+    thumbnailSrc: string;
   };
 };
 

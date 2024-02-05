@@ -70,36 +70,42 @@ export const socialLinks1 = [
 
 export const testimonials = [
   {
+    id: 1,
     backgroundColor: "#19A3A3",
     name: "M.O",
     comment:
       "I just love how the ideas came to life even better than I envisioned. Great communication, time management and work all round. Please keep it up.",
   },
   {
+    id: 2,
     backgroundColor: "#CA9F08",
     name: "T.J",
     comment:
       "Sometimes you meet people that go over and beyond with their work. I am grateful our paths crossed, and even happier with the work done",
   },
   {
+    id: 3,
     backgroundColor: "#AD2A88",
     name: "M.O",
     comment:
       "It was well done. I had no complaints whatsoever They are one of the elite few, and I am beyond thrilled at their delivery. Loved every interaction,",
   },
   {
+    id: 4,
     backgroundColor: "#4C9F19",
     name: "E.O",
     comment:
       "I was particular thrilled by the rendering of the animation. It was truly immersive, impressive, was delivered in stipulated time and was beautiful",
   },
   {
+    id: 5,
     backgroundColor: "#9747FF",
     name: "A.Q",
     comment:
       "If you are thinking of interior designs or animation, don’t overthink it, these guys have really good work. I was more than impressed",
   },
   {
+    id: 6,
     backgroundColor: "#426AF2",
     name: "M.S",
     comment:

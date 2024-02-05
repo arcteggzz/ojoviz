@@ -1,47 +1,53 @@
 import styles from "./ImageWithLoader.module.scss";
-// import { useEffect, useState, useRef } from "react";
-// import MoonLoader from "react-spinners/MoonLoader";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import { useState, useEffect } from "react";
 
-const ImageWithLoader = ({ src, alt }: { src: string; alt: string }) => {
-  // const [isLoading, setIsLoading] = useState(true);
+const ImageWithLoader = ({
+  src,
+  alt,
+  thumbnailSrc,
+}: {
+  src: string;
+  alt: string;
+  thumbnailSrc: string;
+}) => {
+  const [isMobileScreen, setIsMobileScreen] = useState(false);
 
-  // const imageRef = useRef<HTMLImageElement>(null);
+  useEffect(() => {
+    const handleResize = () => {
+      const mobileScreen = window.innerWidth <= 720;
+      setIsMobileScreen(mobileScreen);
+    };
 
-  // useEffect(() => {
-  //   const handleLoad = () => {
-  //     setIsLoading(false);
-  //   };
+    // Initial check on component mount
+    handleResize();
 
-  //   imageRef?.current?.addEventListener("load", handleLoad);
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
 
-  //   return () => {
-  //     if (imageRef.current) {
-  //       // eslint-disable-next-line react-hooks/exhaustive-deps
-  //       imageRef.current?.removeEventListener("load", handleLoad);
-  //     }
-  //   };
-  // }, [imageRef]);
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
-    // <div className={styles.ImageWithLoader}>
-    //   {isLoading ? (
-    //     <div className={styles.loading_container}>
-    //       <MoonLoader color="#ffffff" />
-    //     </div>
-    //   ) : (
-    //     <></>
-    //   )}
-
-    //   <img
-    //     src={src}
-    //     alt={alt}
-    //     className={isLoading ? styles.image_loading : styles.image_loaded}
-    //     ref={imageRef}
-    //   />
-    // </div>
-
     <div className={styles.ImageWithLoader}>
-      <img src={src} alt={alt} className={styles.image_item} />
+      {/* <img src={src} alt={alt} className={styles.image_item} /> */}
+
+      <div className={styles.image_item}>
+        <LazyLoadImage
+          alt={alt}
+          src={src}
+          effect="blur"
+          placeholderSrc={thumbnailSrc}
+          style={{
+            maxWidth: isMobileScreen ? "80vw" : "60vw",
+            maxHeight: "80vh",
+          }}
+        />
+      </div>
     </div>
   );
 };

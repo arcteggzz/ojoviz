@@ -7,14 +7,29 @@
   align-items: center;
   justify-content: center;
 
-  background-image: url("../images/projects_header_bg.png");
-  background-size: cover;
-  background-position: center;
+  position: relative;
 
   @include md() {
+    height: 182px;
   }
   @include sm() {
     height: 100px;
+  }
+
+  .background_image {
+    width: 100%;
+    height: 272px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @include md() {
+      height: 182px;
+    }
+    @include sm() {
+      height: 100px;
+    }
   }
 
   .project_header {
@@ -28,7 +43,11 @@
     letter-spacing: -1.08px;
     background: none;
     text-transform: uppercase;
+    z-index: 10;
 
+    @include md() {
+      font-size: 22px;
+    }
     @include sm() {
       font-size: 18px;
     }

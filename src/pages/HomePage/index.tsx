@@ -2,7 +2,8 @@ import styles from "./HomePage.module.scss";
 import { AnimatedFadeInPage, PublicPageLayout } from "../../utils";
 import { useState, useEffect, useRef } from "react";
 import {
-  SplashScreen,
+  // SplashScreen,
+  SplashBob,
   Hero,
   ContactUs,
   AboutUs,
@@ -19,12 +20,12 @@ const HomePage = () => {
   const location = useLocation();
   const { setMobileNavbarOpen } = useApp();
 
-  const [spalsh, setSplash] = useState(true);
+  const [splash, setSplash] = useState(true);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setSplash(false);
-    }, 1000);
+    }, 1200);
 
     return () => clearTimeout(timeoutId);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -57,7 +58,7 @@ const HomePage = () => {
       setMobileNavbarOpen(false);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [location, spalsh]);
+  }, [location, splash]);
 
   useEffect(() => {
     if (
@@ -68,7 +69,7 @@ const HomePage = () => {
       setMobileNavbarOpen(false);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [location, spalsh]);
+  }, [location, splash]);
 
   useEffect(() => {
     if (
@@ -82,8 +83,8 @@ const HomePage = () => {
 
   return (
     <AnimatedFadeInPage>
-      {spalsh ? (
-        <SplashScreen />
+      {splash ? (
+        <SplashBob />
       ) : (
         <PublicPageLayout>
           <main className={styles.HomePage}>

@@ -54,6 +54,20 @@
         gap: pixRem(16);
       }
 
+      .mute_btn {
+        cursor: pointer;
+        width: 18px;
+        height: auto;
+        border: none;
+        background-color: none;
+
+        .mute_icon {
+          width: 100%;
+          height: auto;
+          cursor: pointer;
+        }
+      }
+
       .navLinks_Desktop {
         display: flex;
         align-items: center;

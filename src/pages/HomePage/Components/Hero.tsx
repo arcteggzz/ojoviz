@@ -1,7 +1,12 @@
 import styles from "../Styles/Hero.module.scss";
 import { heroVideoUrl } from "../../../utils";
+import useApp from "../../../hooks/useApp";
+import { useRef } from "react";
 
 const Hero = () => {
+  const { heroVideoMuted } = useApp();
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
   return (
     <header className={styles.Hero}>
       <div
@@ -18,25 +23,15 @@ const Hero = () => {
 
         <button className={styles.desktop_start_btn}>Start Your Project</button>
       </div>
-      {/* <div className={styles.video_container}>
-        <ReactPlayer
-          url={`https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705987331/Ojoviz%20Assets/Telos_2_2_edqnvp.mp4`}
-          loop={true}
-          // controls={true}
-          playing={true}
-          style={videoStyle}
-          width="400px"
-          height="400px"
-        />
-      </div> */}
 
       <div className={styles.main_video_container}>
         <video
           className={styles.video_element}
           autoPlay={true}
           loop
-          muted
+          muted={heroVideoMuted}
           src={heroVideoUrl}
+          ref={videoRef}
         ></video>
       </div>
 

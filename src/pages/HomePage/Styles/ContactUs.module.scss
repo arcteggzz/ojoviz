@@ -28,6 +28,7 @@
 
     @include sm() {
       margin-bottom: 1px;
+      font-size: 12px;
     }
   }
 
@@ -44,8 +45,8 @@
     text-transform: uppercase;
 
     @include sm() {
-      font-size: 32px;
-      line-height: 44px;
+      font-size: 18px;
+      line-height: 32px;
       width: 80vw;
     }
   }
@@ -62,7 +63,8 @@
     width: 75%;
 
     @include sm() {
-      font-size: 16px;
+      font-size: 11px;
+      line-height: 20px;
       margin-bottom: 40px;
     }
   }

@@ -13,7 +13,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705166901/Ojoviz%20Assets/Night_View_4_1_uxwkog.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705165328/Ojoviz%20Assets/Night_View_4_ypsiil.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705165328/Ojoviz%20Assets/Night_View_4_ypsiil.png",
     },
   },
   {
@@ -28,7 +28,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705182709/Ojoviz%20Assets/Space_Video_bwh24c.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705182677/Ojoviz%20Assets/LD_4_1_2_rlxbbd.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705182677/Ojoviz%20Assets/LD_4_1_2_rlxbbd.png",
     },
   },
   {
@@ -43,7 +43,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705182221/Ojoviz%20Assets/Balconies_2_fwairq.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705182169/Ojoviz%20Assets/Balconies_et9u7g.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705182169/Ojoviz%20Assets/Balconies_et9u7g.png",
     },
   },
   {
@@ -58,7 +58,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705168207/Ojoviz%20Assets/Apartment_2_1_czd6cy.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705168189/Ojoviz%20Assets/Apartment_2_rud5ln.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705168189/Ojoviz%20Assets/Apartment_2_rud5ln.png",
     },
   },
   {
@@ -73,7 +73,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705168738/Ojoviz%20Assets/Night_View_3_1_o4r70h.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705168723/Ojoviz%20Assets/Night_View_3_rklegx.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705168723/Ojoviz%20Assets/Night_View_3_rklegx.png",
     },
   },
   {
@@ -88,7 +88,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705987331/Ojoviz%20Assets/Telos_2_2_edqnvp.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705987322/Ojoviz%20Assets/project_telos_h9hwl4.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705987322/Ojoviz%20Assets/project_telos_h9hwl4.png",
     },
   },
   {
@@ -103,7 +103,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705169218/Ojoviz%20Assets/1_1_1_ucztmm.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705169204/Ojoviz%20Assets/1_1_mraihd.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705169204/Ojoviz%20Assets/1_1_mraihd.png",
     },
   },
   {
@@ -118,7 +118,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705169456/Ojoviz%20Assets/EY_2_1_1_v6qy2k.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705169444/Ojoviz%20Assets/EY_2_1_vu7fyr.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705169444/Ojoviz%20Assets/EY_2_1_vu7fyr.png",
     },
   },
   {
@@ -133,7 +133,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705183045/Ojoviz%20Assets/Live_Recording_Studio_kheeqe.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705172208/Ojoviz%20Assets/SW_2_1_zkmsxp.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705172208/Ojoviz%20Assets/SW_2_1_zkmsxp.png",
     },
   },
   {
@@ -148,7 +148,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705169804/Ojoviz%20Assets/KI_1_1_1_gm7kqf.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705169778/Ojoviz%20Assets/KI_1_1_sbefza.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705169778/Ojoviz%20Assets/KI_1_1_sbefza.png",
     },
   },
   {
@@ -163,7 +163,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705170190/Ojoviz%20Assets/B4_1_1_geowrh.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705170170/Ojoviz%20Assets/B4_1_qk7wg9.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705170170/Ojoviz%20Assets/B4_1_qk7wg9.png",
     },
   },
   {
@@ -178,7 +178,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705170524/Ojoviz%20Assets/OI_2_1_2_obpeya.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705170511/Ojoviz%20Assets/OI_2_1_hh36i4.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705170511/Ojoviz%20Assets/OI_2_1_hh36i4.png",
     },
   },
   {
@@ -193,7 +193,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705171224/Ojoviz%20Assets/br1_1_4_ioqkr2.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705171209/Ojoviz%20Assets/br1_1_3_i7e3z5.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705171209/Ojoviz%20Assets/br1_1_3_i7e3z5.png",
     },
   },
   {
@@ -208,7 +208,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705171606/Ojoviz%20Assets/KGA_8_1_1_cjda7l.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705171586/Ojoviz%20Assets/KGA_8_1_v41lzk.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705171586/Ojoviz%20Assets/KGA_8_1_v41lzk.png",
     },
   },
   {
@@ -223,7 +223,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705171910/Ojoviz%20Assets/Test_3_x_4_1_dhgc75.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705171891/Ojoviz%20Assets/Test_3_x_4_g2xdft.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705171891/Ojoviz%20Assets/Test_3_x_4_g2xdft.png",
     },
   },
   {
@@ -238,7 +238,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705172229/Ojoviz%20Assets/SW_2_1_1_zz2rt7.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705172208/Ojoviz%20Assets/SW_2_1_zkmsxp.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705172208/Ojoviz%20Assets/SW_2_1_zkmsxp.png",
     },
   },
   {
@@ -253,7 +253,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705172711/Ojoviz%20Assets/Space_Scene_1_1_urobm4.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705172689/Ojoviz%20Assets/Space_Scene_1_sywm0n.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705172689/Ojoviz%20Assets/Space_Scene_1_sywm0n.png",
     },
   },
   {
@@ -268,7 +268,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705184317/Ojoviz%20Assets/Fr_2_guchse.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705172959/Ojoviz%20Assets/22_1_pbv9gh.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705172959/Ojoviz%20Assets/22_1_pbv9gh.png",
     },
   },
   {
@@ -283,7 +283,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705173261/Ojoviz%20Assets/scene_twins_1_1_enjudn.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705173223/Ojoviz%20Assets/scene_twins_1_mph0dj.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705173223/Ojoviz%20Assets/scene_twins_1_mph0dj.png",
     },
   },
   {
@@ -298,7 +298,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705173548/Ojoviz%20Assets/4_1_awor1v.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705173529/Ojoviz%20Assets/4_hn2mgw.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705173529/Ojoviz%20Assets/4_hn2mgw.png",
     },
   },
   {
@@ -313,7 +313,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705173788/Ojoviz%20Assets/View_1_2_1_qywsoi.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705173773/Ojoviz%20Assets/View_1_2_dwq8f7.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705173773/Ojoviz%20Assets/View_1_2_dwq8f7.png",
     },
   },
   {
@@ -328,7 +328,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705174038/Ojoviz%20Assets/PKN_10_1_1_j3oy2k.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705174025/Ojoviz%20Assets/PKN_10_1_v3a1ls.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705174025/Ojoviz%20Assets/PKN_10_1_v3a1ls.png",
     },
   },
   {
@@ -343,7 +343,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705183398/Ojoviz%20Assets/P_Villa_fyxdyd.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705174363/Ojoviz%20Assets/br1_1_5_zanmed.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705174363/Ojoviz%20Assets/br1_1_5_zanmed.png",
     },
   },
   {
@@ -358,7 +358,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705174697/Ojoviz%20Assets/OB_1_1_1_hr0jov.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705174687/Ojoviz%20Assets/OB_1_1_mvuofb.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705174687/Ojoviz%20Assets/OB_1_1_mvuofb.png",
     },
   },
   {
@@ -373,7 +373,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705175752/Ojoviz%20Assets/View_1_2_3_cbgqhp.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705175718/Ojoviz%20Assets/View_1_2_2_phby0y.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705175718/Ojoviz%20Assets/View_1_2_2_phby0y.png",
     },
   },
   {
@@ -388,7 +388,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705176411/Ojoviz%20Assets/PKN_4_1_1_urrcso.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705176400/Ojoviz%20Assets/PKN_4_1_ijzgmq.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705176400/Ojoviz%20Assets/PKN_4_1_ijzgmq.png",
     },
   },
   {
@@ -403,7 +403,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705176708/Ojoviz%20Assets/DT_1_2_1_h6bhqp.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705176699/Ojoviz%20Assets/DT_1_2_poam0x.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705176699/Ojoviz%20Assets/DT_1_2_poam0x.png",
     },
   },
   {
@@ -418,7 +418,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705177531/Ojoviz%20Assets/IG_POST_1_2_1_sbgcsd.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705177449/Ojoviz%20Assets/IG_POST_1_2_c30e5l.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705177449/Ojoviz%20Assets/IG_POST_1_2_c30e5l.png",
     },
   },
   {
@@ -433,7 +433,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705177860/Ojoviz%20Assets/WC1_1_1_wdw9nc.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705177852/Ojoviz%20Assets/WC1_1_srsc2v.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705177852/Ojoviz%20Assets/WC1_1_srsc2v.png",
     },
   },
   {
@@ -448,7 +448,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178051/Ojoviz%20Assets/LD_4_1_1_rcqkr9.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705178041/Ojoviz%20Assets/LD_4_1_vf91p2.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705178041/Ojoviz%20Assets/LD_4_1_vf91p2.png",
     },
   },
   {
@@ -463,7 +463,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178274/Ojoviz%20Assets/KT1_2_1_bkeeqa.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705178268/Ojoviz%20Assets/KT1_2_uhqpmo.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705178268/Ojoviz%20Assets/KT1_2_uhqpmo.png",
     },
   },
   {
@@ -478,7 +478,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705178682/Ojoviz%20Assets/TW_1_2_1_wl6wiy.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705178672/Ojoviz%20Assets/TW_1_2_bzbs3z.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705178672/Ojoviz%20Assets/TW_1_2_bzbs3z.png",
     },
   },
   {
@@ -493,7 +493,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705183891/Ojoviz%20Assets/Taj_astv4p.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705183874/Ojoviz%20Assets/Screenshot_2_icyfp1.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705183874/Ojoviz%20Assets/Screenshot_2_icyfp1.png",
     },
   },
   {
@@ -508,7 +508,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179223/Ojoviz%20Assets/PKN_1_1_1_tlpyhx.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705179211/Ojoviz%20Assets/PKN_1_1_wrx1mg.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705179211/Ojoviz%20Assets/PKN_1_1_wrx1mg.png",
     },
   },
   {
@@ -523,7 +523,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179552/Ojoviz%20Assets/PV_13_1_1_dumju5.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705179544/Ojoviz%20Assets/PV_13_1_adthrs.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705179544/Ojoviz%20Assets/PV_13_1_adthrs.png",
     },
   },
   {
@@ -538,7 +538,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705184175/Ojoviz%20Assets/Accent_Armchair_qynf4h.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705184158/Ojoviz%20Assets/accent_chiar_blsdrt.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705184158/Ojoviz%20Assets/accent_chiar_blsdrt.png",
     },
   },
   {
@@ -553,7 +553,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705179900/Ojoviz%20Assets/PKN_10_1_3_tsrrht.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705179895/Ojoviz%20Assets/PKN_10_1_2_sepw9e.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705179895/Ojoviz%20Assets/PKN_10_1_2_sepw9e.png",
     },
   },
   {
@@ -568,7 +568,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705180198/Ojoviz%20Assets/View_2_Night_1_1_btc6hh.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705180066/Ojoviz%20Assets/View_2_Night_1_v1ndrg.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705180066/Ojoviz%20Assets/View_2_Night_1_v1ndrg.png",
     },
   },
   {
@@ -583,7 +583,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705180678/Ojoviz%20Assets/FD02_1_1_vui4pm.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705180673/Ojoviz%20Assets/FD02_1_pqdfet.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705180673/Ojoviz%20Assets/FD02_1_pqdfet.png",
     },
   },
   {
@@ -598,7 +598,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705180954/Ojoviz%20Assets/BR1_2_1_1_t7tqbv.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705180942/Ojoviz%20Assets/BR1_2_1_lab34d.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705180942/Ojoviz%20Assets/BR1_2_1_lab34d.png",
     },
   },
   {
@@ -613,7 +613,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705181154/Ojoviz%20Assets/View_1c_1_1_lv1n4m.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705181142/Ojoviz%20Assets/View_1c_1_cculrq.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705181142/Ojoviz%20Assets/View_1c_1_cculrq.png",
     },
   },
   {
@@ -628,7 +628,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705181359/Ojoviz%20Assets/LD_7b_1_1_zbivum.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705181353/Ojoviz%20Assets/LD_7b_1_vbbssl.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705181353/Ojoviz%20Assets/LD_7b_1_vbbssl.png",
     },
   },
   {
@@ -643,7 +643,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705181537/Ojoviz%20Assets/edit_11_2_1_gdnpo9.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705181523/Ojoviz%20Assets/edit_11_2_uaqgit.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705181523/Ojoviz%20Assets/edit_11_2_uaqgit.png",
     },
   },
   {
@@ -658,7 +658,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705181675/Ojoviz%20Assets/RDSD_002_1_1_nkxehf.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705181667/Ojoviz%20Assets/RDSD_002_1_yjy3dw.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705181667/Ojoviz%20Assets/RDSD_002_1_yjy3dw.png",
     },
   },
   {
@@ -673,7 +673,7 @@ export const projectsList: singleProjectType[] = [
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705182882/Ojoviz%20Assets/Fr_qntgox.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705178506/Ojoviz%20Assets/KGA_8_1_2_emplck.png",
     },
   },
   {
@@ -688,7 +688,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706441426/Ojoviz%20Assets/FR_3_1_y2478u.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706441417/Ojoviz%20Assets/FR_3_vucf2c.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706441417/Ojoviz%20Assets/FR_3_vucf2c.png",
     },
   },
   {
@@ -703,7 +703,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706441763/Ojoviz%20Assets/SF_3_5_1_fvrikx.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706441741/Ojoviz%20Assets/SF_3_5_lcduve.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706441741/Ojoviz%20Assets/SF_3_5_lcduve.png",
     },
   },
   {
@@ -718,7 +718,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442201/Ojoviz%20Assets/FR_5_3_1_l0idyx.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706442193/Ojoviz%20Assets/FR_5_3_axsnie.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706442193/Ojoviz%20Assets/FR_5_3_axsnie.png",
     },
   },
   {
@@ -733,7 +733,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442513/Ojoviz%20Assets/edit_2_4_1_ieusgm.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706442502/Ojoviz%20Assets/edit_2_4_cepwfr.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706442502/Ojoviz%20Assets/edit_2_4_cepwfr.png",
     },
   },
   {
@@ -748,7 +748,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706442869/Ojoviz%20Assets/22_1_3_frv6ul.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706442858/Ojoviz%20Assets/22_1_2_ekpfur.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706442858/Ojoviz%20Assets/22_1_2_ekpfur.png",
     },
   },
   {
@@ -763,7 +763,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443183/Ojoviz%20Assets/SD_1_1_1_pjtp58.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706443166/Ojoviz%20Assets/SD_1_1_cx5drv.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706443166/Ojoviz%20Assets/SD_1_1_cx5drv.png",
     },
   },
   {
@@ -778,7 +778,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443610/Ojoviz%20Assets/FR_2_1_ylwkfv.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706443601/Ojoviz%20Assets/FR_2_awb1yn.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706443601/Ojoviz%20Assets/FR_2_awb1yn.png",
     },
   },
   {
@@ -793,7 +793,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706443843/Ojoviz%20Assets/IG_1_3_1_lnnjmq.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706443832/Ojoviz%20Assets/IG_1_3_kitfab.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706443832/Ojoviz%20Assets/IG_1_3_kitfab.png",
     },
   },
   {
@@ -808,7 +808,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706444102/Ojoviz%20Assets/FR_4_1_grxe1j.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706444071/Ojoviz%20Assets/FR_4_ph8ier.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706444071/Ojoviz%20Assets/FR_4_ph8ier.png",
     },
   },
   {
@@ -823,7 +823,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706450423/Ojoviz%20Assets/DT_4_3_1_ztvz3x.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706450395/Ojoviz%20Assets/DT_4_3_pqdtmy.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706450395/Ojoviz%20Assets/DT_4_3_pqdtmy.png",
     },
   },
   {
@@ -838,7 +838,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706451063/Ojoviz%20Assets/Day_View_2_4_1_thflxa.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706451018/Ojoviz%20Assets/Day_View_2_4_a2vpwb.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706451018/Ojoviz%20Assets/Day_View_2_4_a2vpwb.png",
     },
   },
   {
@@ -853,7 +853,7 @@ export const projectsList: singleProjectType[] = [
       large:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706451305/Ojoviz%20Assets/SA_2_1_llpqnn.png",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_100,g_face/v1706451260/Ojoviz%20Assets/SA_2_ceq255.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706451260/Ojoviz%20Assets/SA_2_ceq255.png",
     },
   },
 ];

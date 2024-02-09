@@ -1,6 +1,6 @@
 import styles from "./VideoWithLoader.module.scss";
 import ReactPlayer from "react-player";
-import play_icon from "../../assets/images/play_icon_small.png";
+import play_icon from "../../assets/images/play_icon.png";
 
 const VideoWithLoader = ({
   src,
@@ -23,7 +23,6 @@ const VideoWithLoader = ({
             className={styles.placeHolder}
           />
         }
-        // light={true}
         playIcon={
           <div className={styles.play_icon_container}>
             <img src={play_icon} alt="play Icon" className={styles.play_icon} />

@@ -1,7 +1,7 @@
 import styles from "../Styles/AboutUs.module.scss";
 import { aboutUsItems } from "../../../utils";
 import details_desktop from "../images/details_desktop.png";
-import details_mobile from "../images/details_mobile.png";
+// import details_mobile from "../images/details_mobile.png";
 
 const AboutUs = () => {
   return (
@@ -41,13 +41,13 @@ const AboutUs = () => {
           />
         </div>
 
-        <div className={styles.about_us_content_details_mobile}>
+        {/* <div className={styles.about_us_content_details_mobile}>
           <img
             src={details_mobile}
             alt="services offered"
             className={styles.details_mobile}
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -41,7 +41,6 @@ const ProjectsPage = () => {
             <ProjectsControls />
             <ProjectsListDisplay />
 
-            {}
             <button
               className={styles.to_top_btn}
               onClick={scrollToTop}

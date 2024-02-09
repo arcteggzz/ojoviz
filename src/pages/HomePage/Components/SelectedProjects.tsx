@@ -10,7 +10,7 @@ const SelectedProjects = () => {
 
   return (
     <section className={styles.SelectedProjects}>
-      <div className={styles.contact_us_container}>
+      <div className={styles.select_us_container}>
         <p className={styles.projects_text}>Selected Projects</p>
         <h3 className={styles.learn_more_text}>
           Learn more about the great works done
@@ -72,6 +72,33 @@ const SelectedProjects = () => {
               </Link>
             );
           })}
+
+          <div className={styles.intro_div_content}>
+            <h3 className={styles.recent_projs_text}>
+              Check out recent projects
+            </h3>
+
+            <Link to={routePaths.PROJECTS} className={styles.link_container}>
+              <p className={styles.link_text_item}>View All Projects</p>
+              <img
+                src={right_side_arrow}
+                alt="hyperlink arrow"
+                className={styles.right_side_arrow}
+              />
+            </Link>
+
+            <Link
+              to={`${routePaths.HOME}${routePaths.HASH_ID.contact_us}`}
+              className={styles.link_container}
+            >
+              <p className={styles.link_text_item}>Contact Us</p>
+              <img
+                src={right_side_arrow}
+                alt="hyperlink arrow"
+                className={styles.right_side_arrow}
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </section>

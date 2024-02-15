@@ -6,9 +6,6 @@
   width: 100%;
   overflow: hidden;
 
-  box-shadow: 0px 6px 20px -11px rgb(0, 0, 0);
-  transition: all ease-in 0.1s;
-
   position: relative;
 
   .proj_image {
@@ -78,9 +75,4 @@
       background: none;
     }
   }
-}
-
-.SingleProjectDisplay:hover {
-  transform: scale(1.0025);
-  box-shadow: 0px 6px 30px -11px #7b7b7b;
 }

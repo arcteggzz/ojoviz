@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import {
   ProjectsHeader,
   ProjectsControls,
-  ProjectsListDisplay,
+  // ProjectsListDisplay,
+  Display,
 } from "./Components";
 import scroll_to_top from "./images/scroll_to_top.png";
 
@@ -39,7 +40,8 @@ const ProjectsPage = () => {
           <div className={styles.ProjectsPage}>
             <ProjectsHeader />
             <ProjectsControls />
-            <ProjectsListDisplay />
+            {/* <ProjectsListDisplay /> */}
+            <Display />
 
             <button
               className={styles.to_top_btn}

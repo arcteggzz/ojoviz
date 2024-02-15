@@ -14,7 +14,7 @@
     bottom: 4vh;
     right: 120px;
 
-    width: 40px;
+    width: 35px;
     height: auto;
 
     background: none;
@@ -50,7 +50,7 @@
         width: 85%;
       }
       @include sm() {
-        width: 70%;
+        width: 60%;
       }
     }
   }

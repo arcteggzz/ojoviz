@@ -258,7 +258,7 @@ export const projectsList: singleProjectType[] = [
   },
   {
     id: "18",
-    name: "KD Apartment",
+    name: "Project FR",
     client: "Private Client",
     category: "motion images",
     type: "video",
@@ -489,11 +489,11 @@ export const projectsList: singleProjectType[] = [
     type: "video",
     videoUrl: {
       placeholder:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1705183874/Ojoviz%20Assets/Screenshot_2_icyfp1.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_300,g_face/v1707858420/Ojoviz%20Assets/Screenshot_733_tqt4wk.png",
       mainUrl:
         "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1705183891/Ojoviz%20Assets/Taj_astv4p.mp4",
       thumbnailSrc:
-        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1705183874/Ojoviz%20Assets/Screenshot_2_icyfp1.png",
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1707858420/Ojoviz%20Assets/Screenshot_733_tqt4wk.png",
     },
   },
   {
@@ -854,6 +854,21 @@ export const projectsList: singleProjectType[] = [
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/v1706451305/Ojoviz%20Assets/SA_2_1_llpqnn.png",
       thumbnailSrc:
         "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1706451260/Ojoviz%20Assets/SA_2_ceq255.png",
+    },
+  },
+  {
+    id: "59",
+    name: "Apartment Block",
+    client: "Partum Locus",
+    category: "motion images",
+    type: "video",
+    videoUrl: {
+      placeholder:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_400,g_face/v1707861210/Screenshot_735_eadv3h.png",
+      mainUrl:
+        "https://res.cloudinary.com/dhf9w2zpm/video/upload/v1707861141/Jl_A01_ea6rt7.mp4",
+      thumbnailSrc:
+        "https://res.cloudinary.com/dhf9w2zpm/image/upload/c_thumb,w_50,g_face/v1707861210/Screenshot_735_eadv3h.png",
     },
   },
 ];

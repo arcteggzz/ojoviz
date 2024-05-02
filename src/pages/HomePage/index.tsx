@@ -4,11 +4,12 @@ import { useState, useEffect, useRef } from "react";
 import {
   // SplashScreen,
   SplashBob,
-  Hero,
+  // Hero,
   ContactUs,
   AboutUs,
   Testimonials,
   SelectedProjects,
+  Hero2,
 } from "./Components";
 import { useLocation } from "react-router-dom";
 import useApp from "../../hooks/useApp";
@@ -88,7 +89,7 @@ const HomePage = () => {
       ) : (
         <PublicPageLayout>
           <main className={styles.HomePage}>
-            <Hero />
+            <Hero2 />
             <div id="aboutUs" ref={aboutUsSectionRef}>
               <AboutUs />
             </div>

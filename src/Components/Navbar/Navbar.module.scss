@@ -6,6 +6,10 @@
   width: 100%;
   z-index: 1000;
 
+  .Navbar_container.Navbar_active {
+    background: $backgroundColor;
+  }
+
   .Navbar_container {
     display: flex;
     justify-content: space-between;
@@ -13,27 +17,28 @@
     width: 100%;
     padding: 0 pixRem(120);
     height: pixRem(80);
-    background: $backgroundColor;
-    transition: all ease 0.4s;
+    // background: $backgroundColor;
+    background: transparent;
+    // transition: all ease 0.25s;
 
     @include md() {
       padding: 0 pixRem(72);
-      height: pixRem(76);
+      // height: pixRem(76);
     }
     @include sm() {
-      padding: 0 pixRem(20);
-      height: pixRem(72);
+      padding: 0 pixRem(24);
+      // height: pixRem(72);
     }
 
     .logo_icon {
-      img {
+      .logo_icon_image {
         width: 54px;
         height: auto;
         cursor: pointer;
         transition: all ease 0.5s;
 
         @include sm() {
-          width: 38px;
+          width: 28px;
         }
       }
 
@@ -52,20 +57,6 @@
       }
       @include sm() {
         gap: pixRem(16);
-      }
-
-      .mute_btn {
-        cursor: pointer;
-        width: 18px;
-        height: auto;
-        border: none;
-        background-color: none;
-
-        .mute_icon {
-          width: 100%;
-          height: auto;
-          cursor: pointer;
-        }
       }
 
       .navLinks_Desktop {
@@ -143,12 +134,21 @@
       }
 
       .hamburger {
-        display: none;
         border: none;
-        background: none;
+        background-color: transparent;
 
-        @include sm() {
-          display: block;
+        .hamburger_icon {
+          display: none;
+          border: none;
+          background: none;
+
+          @include sm() {
+            display: block;
+            border: none;
+            background-color: transparent;
+            width: 14px;
+            height: auto;
+          }
         }
       }
     }
@@ -165,13 +165,13 @@
 
       z-index: 9999;
       width: 100%;
-      height: calc(100vh - 72px);
+      height: calc(100vh - 80px);
 
       transition: all ease 0.5s;
 
       position: absolute;
       right: -100vw;
-      top: 72px;
+      top: 80px;
       opacity: 0.8;
 
       background: $backgroundColor;
@@ -184,13 +184,13 @@
 
     z-index: 9999;
     width: 100%;
-    height: calc(100vh - 72px);
+    height: calc(100vh - 80px);
 
     transition: all ease 0.5s;
 
     position: absolute;
     right: 0;
-    top: 72px;
+    top: 80px;
     opacity: 1;
 
     background-color: $backgroundColor;

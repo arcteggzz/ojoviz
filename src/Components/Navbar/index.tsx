@@ -5,43 +5,48 @@ import { routePaths } from "../../utils";
 import useApp from "../../hooks/useApp";
 import open_hamburger_icon from "../../assets/images/open_hamburger_icon.png";
 import close_hamburger_icon from "../../assets/images/close_hamburger_icon.png";
-import mute_icon from "../../assets/images/mute_icon.png";
-import unmute_icon from "../../assets/images/unmute_icon.png";
-import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const {
     mobileNavbarOpen,
     toggleMobileNavbar,
-    setHeroVideoMuted,
-    heroVideoMuted,
+    navBarActive,
+    setNavbarActive,
   } = useApp();
-  const { pathname } = useLocation();
+
+  const changeBackgroundNavbarHandler = () => {
+    if (window.scrollY >= 80) {
+      setNavbarActive(true);
+    } else {
+      setNavbarActive(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackgroundNavbarHandler);
 
   return (
     <>
       <nav className={styles.Navbar}>
-        <div className={styles.Navbar_container}>
+        <div
+          className={
+            mobileNavbarOpen
+              ? `${styles.Navbar_container} ${styles.Navbar_active}`
+              : navBarActive
+              ? `${styles.Navbar_container} ${styles.Navbar_active}`
+              : styles.Navbar_container
+          }
+        >
           <Link to={routePaths.HOME} className={styles.logo_icon}>
-            <img src={ojoviz_logo} alt="Ojoviz home logo" />
+            <img
+              src={ojoviz_logo}
+              alt="Ojoviz home logo"
+              className={styles.logo_icon_image}
+            />
           </Link>
 
           {/* desktop right hand side */}
           <div className={styles.desktop_right}>
             {/* desktop navlinks  */}
-
-            {pathname === "/" && (
-              <button
-                className={styles.mute_btn}
-                onClick={() => setHeroVideoMuted(!heroVideoMuted)}
-              >
-                <img
-                  src={heroVideoMuted ? unmute_icon : mute_icon}
-                  alt={heroVideoMuted ? "unmute icon" : "muted icon"}
-                  className={styles.mute_icon}
-                />
-              </button>
-            )}
 
             <div className={styles.navLinks_Desktop}>
               <NavLink
@@ -81,6 +86,7 @@ const Navbar = () => {
                     ? "Close Hamburger Icon"
                     : "Open Hamburger Icon"
                 }
+                className={styles.hamburger_icon}
               />
             </button>
           </div>

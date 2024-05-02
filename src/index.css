@@ -32,7 +32,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background: #060606;
+  /* background: #060606; */
   /* overflow: hidden; */
 }
 

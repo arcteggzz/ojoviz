@@ -9,8 +9,18 @@ type LayoutType = {
 };
 
 const PublicPageLayout = ({ children }: LayoutType) => {
-  const { setMobileNavbarOpen } = useApp();
+  const { setMobileNavbarOpen, navBarActive, setNavbarActive } = useApp();
   const location = useLocation();
+
+  const changeBackgroundNavbarHandler = () => {
+    if (window.scrollY >= 80) {
+      setNavbarActive(true);
+    } else {
+      setNavbarActive(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackgroundNavbarHandler);
 
   useEffect(() => {
     setMobileNavbarOpen(false);
@@ -27,8 +37,20 @@ const PublicPageLayout = ({ children }: LayoutType) => {
       <div className={styles.container}>
         <div className={styles.PublicPageLayout}>
           <div className={styles.main_container}>
-            <div className={styles.Navbar_container}>
-              <div className={styles.Navbar_Child_Container}>
+            <div
+              className={
+                navBarActive
+                  ? `${styles.main_Navbar_container} ${styles.main_Navbar_active}`
+                  : styles.main_Navbar_container
+              }
+            >
+              <div
+                className={
+                  navBarActive
+                    ? `${styles.main_Navbar_Child_Container} ${styles.main_Navbar_Child_active}`
+                    : styles.main_Navbar_Child_Container
+                }
+              >
                 <Navbar />
               </div>
             </div>

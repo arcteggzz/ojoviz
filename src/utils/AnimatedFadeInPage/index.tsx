@@ -20,6 +20,7 @@ const AnimatedFadeInPage = ({ children }: AnimatedPageProps) => {
         animate="animate"
         exit="exit"
         transition={{ duration: 0.1 }}
+        style={{ background: "#000000" }}
       >
         {children}
       </motion.div>

@@ -28,6 +28,10 @@
     columns: 3;
     gap: 24px;
 
+    @include xl() {
+      gap: 20px;
+      columns: 4;
+    }
     @include md() {
       gap: 20px;
       columns: 2;

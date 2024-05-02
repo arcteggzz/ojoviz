@@ -11,16 +11,15 @@ type AppContextType = {
   toggleMobileNavbar: () => void;
   setDropDownChoice: React.Dispatch<React.SetStateAction<dropDownCategory>>;
   dropDownChoice: dropDownCategory;
-  setHeroVideoMuted: React.Dispatch<React.SetStateAction<boolean>>;
-  heroVideoMuted: boolean;
+  navBarActive: boolean;
+  setNavbarActive: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 export const AppContext = createContext({} as AppContextType);
 
 export const AppContextProvider = ({ children }: AppContextProviderProps) => {
   const [mobileNavbarOpen, setMobileNavbarOpen] = useState(false);
-
-  const [heroVideoMuted, setHeroVideoMuted] = useState(true);
+  const [navBarActive, setNavbarActive] = useState(false);
 
   const [dropDownChoice, setDropDownChoice] =
     useState<dropDownCategory>("All Projects");
@@ -45,8 +44,8 @@ export const AppContextProvider = ({ children }: AppContextProviderProps) => {
         toggleMobileNavbar,
         dropDownChoice,
         setDropDownChoice,
-        heroVideoMuted,
-        setHeroVideoMuted,
+        navBarActive,
+        setNavbarActive,
       }}
     >
       {children}

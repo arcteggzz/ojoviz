@@ -35,7 +35,7 @@ export const aboutUsItems = [
   },
   {
     head: "400+",
-    body: "Happy Customers",
+    body: "Happy Clients",
   },
   {
     head: "6000+",

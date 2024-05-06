@@ -90,7 +90,7 @@ const Footer = () => {
                 alt="Website Icon"
                 className={styles.external_socials_icon}
               />
-              <p className={styles.external_link_text}>Jordan.rvt</p>
+              <p className={styles.external_link_text}>jordan.rvt</p>
             </Link>
 
             <div className={styles.number_contact_container}>
@@ -118,7 +118,7 @@ const Footer = () => {
                 className={styles.external_socials_icon}
               />
               <p className={styles.external_link_text}>
-                Jordan_leye@outlook.com
+                jordan_leye@outlook.com
               </p>
             </Link>
           </div>

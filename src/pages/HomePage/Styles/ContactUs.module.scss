@@ -78,11 +78,12 @@
     line-height: 18px; /* 150% */
 
     padding: 10px 16px;
-    border-radius: 8px;
+    // border-radius: 8px;
     background: #fff;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     cursor: pointer;
     transition: all ease-in 0.25s;
+    border: none;
 
     @include sm() {
       padding: 10px 20px;

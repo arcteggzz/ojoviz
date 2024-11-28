@@ -18,7 +18,7 @@ const SelectedProjects = () => {
         <p className={styles.companies_text}>
           We have worked with some amazing companies across the world on
           projects such as residential buildings, commercial buildings and so
-          on. Be sure to get the the best result in every form.
+          on. Be sure to get the best result in every form.
         </p>
       </div>
 
